@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src --dest dist"
+    "build": "vuepress build src --dest dist",
+    "publish": "scp -r ./dist root@47.240.12.195:/root/personal-site"
   },
   "devDependencies": {
     "vuepress": "^1.0.3",
