@@ -162,6 +162,10 @@ module.exports = {
       { text: '文章', link: '/posts/', exact: false },
     ],
 
+    markdown: {
+      lineNumbers: true,
+    },
+
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
       owner: 'shenxiang11',
@@ -172,7 +176,7 @@ module.exports = {
 
     // 分页配置
     pagination: {
-      perPage: 5,
+      perPage: 10,
     },
 
     // 默认页面（可选，默认全为 true）
