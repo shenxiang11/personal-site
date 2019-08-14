@@ -165,9 +165,9 @@ module.exports = {
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
       owner: 'shenxiang11',
-      repo: 'vuepress-theme-meteorlxy',
-      clientId: 'MY_CLIENT_ID',
-      clientSecret: 'MY_CLIENT_SECRET',
+      repo: 'personal-site',
+      clientId: 'd2d56755dfc384e95f7e',
+      clientSecret: '64263cb6fe5648e8df7f9c3bb78fc1cb49c83914',
     },
 
     // 分页配置
