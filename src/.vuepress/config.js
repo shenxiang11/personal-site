@@ -15,6 +15,10 @@ module.exports = {
   // 使用的主题
   theme: 'meteorlxy',
 
+  markdown: {
+    lineNumbers: true,
+  },
+
   // 主题配置
   themeConfig: {
     // 主题语言，参考下方 [主题语言] 章节
@@ -161,10 +165,6 @@ module.exports = {
       { text: '首页', link: '/', exact: true },
       { text: '文章', link: '/posts/', exact: false },
     ],
-
-    markdown: {
-      lineNumbers: true,
-    },
 
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
